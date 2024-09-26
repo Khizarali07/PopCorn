@@ -15,7 +15,7 @@ import { useState } from "react";
 import { useLocalStorageState } from "./Components/Custom hooks/useLocalStorageState";
 import { useMovies } from "./Components/Custom hooks/useMovies";
 
-export const KEY = "f84fc31d";
+export const KEY = "25d4b7a1";
 
 export default function App() {
   const [query, setQuery] = useState("");

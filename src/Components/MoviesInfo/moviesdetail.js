@@ -42,6 +42,7 @@ export default function MovieDetails({
     Director: director,
     Genre: genre,
   } = movie;
+  console.log(movie);
 
   const isTop = imdbRating > 8;
   console.log(isTop);

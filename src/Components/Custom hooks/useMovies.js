@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const KEY = "f84fc31d";
+const KEY = "25d4b7a1";
 
 export function useMovies(query) {
   const [movies, setMovies] = useState([]);
@@ -9,7 +9,6 @@ export function useMovies(query) {
 
   useEffect(
     function () {
-
       const controller = new AbortController();
 
       async function fetchMovies() {
